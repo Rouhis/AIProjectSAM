@@ -12,7 +12,7 @@ Go to https://bard.google.com/chat and check your cookies and copy the value in 
 
 The API keys tends to expire quite often and you might get an error about "SNlM0e value not found.". Then just clear your cookies and get a new api key.
 
-You also need to have photo of a piece of clothing that you can use to test the program.
+You also need to have photo of a piece of clothing that you can use to test the application.
 
 ## Installing
 Installing dependencies.
