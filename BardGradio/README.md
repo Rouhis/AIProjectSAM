@@ -1,13 +1,22 @@
 # Project Title
 
-One to two paragraph statement about your product and what it does.
+This is an bare bone project of how you can find poducts similiar to some other product using Google Bard. 
+Base idea of this is to show how you can connect Bard to Gradio.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You need to have photo of a piece of clothing that you can use to test the program.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+```bash
+pip install -r requirements.txt
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
 
 
