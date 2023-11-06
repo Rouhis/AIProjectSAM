@@ -30,3 +30,9 @@ You can run the app using command
 gradio bardGradio.py
 ```
 or in VSCode
+
+## The UI
+
+![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/64b8b65b-7244-490f-86bc-082c94af05c3)
+
+
