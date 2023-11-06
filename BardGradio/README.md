@@ -24,3 +24,9 @@ pip install git+https://github.com/dsdanielpark/Bard-API.git
 ```bash
 pip install bardapi==0.1.30
 ```
+## Project
+You can run the app using command
+```bash
+gradio bardGradio.py
+```
+or in VSCode
