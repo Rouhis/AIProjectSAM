@@ -4,6 +4,10 @@ This is an bare bone project of how you can find poducts similiar to some other 
 Base idea of this is to show how you can connect Bard to Gradio.
 
 ## Getting Started
+You need a api key for Bard.
+
+![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/66e509db-01b0-4fdb-a68b-2de644dbbd94)
+
 
 You need to have photo of a piece of clothing that you can use to test the program.
 
