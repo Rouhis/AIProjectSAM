@@ -10,7 +10,7 @@ Go to https://bard.google.com/chat and check your cookies and copy the value in 
 
 ![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/66e509db-01b0-4fdb-a68b-2de644dbbd94)
 
-The API keys tend to expire quite often and you might get an error about "SNlM0e value not found.". Then just clear your cookies and get a new api key.
+The API keys tends to expire quite often and you might get an error about "SNlM0e value not found.". Then just clear your cookies and get a new api key.
 
 You also need to have photo of a piece of clothing that you can use to test the program.
 
