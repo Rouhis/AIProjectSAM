@@ -41,6 +41,8 @@ gradio bardGradio.py
 ```
 or in VSCode
 
+App should run on http://127.0.0.1:7860
+
 ## How to use
 
 ![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/64b8b65b-7244-490f-86bc-082c94af05c3)
