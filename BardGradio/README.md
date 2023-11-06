@@ -8,7 +8,7 @@ Base idea of this is to show how you can connect Bard to Gradio.
 You need to have photo of a piece of clothing that you can use to test the program.
 
 ## Installing
-Installing dependencies
+Installing dependencies.
 ### Gradio
 ```bash
 pip install gradio
@@ -37,6 +37,6 @@ or in VSCode
 
 Add your image to the first slot and then press find similiar products. Then Bard will find the products for you and give you a text prompt about them.
 
-Images don't work yet
+Similiar product images doesn't work yet.
 
 
