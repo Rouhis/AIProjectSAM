@@ -28,7 +28,7 @@ pip install bardapi
 pip install git+https://github.com/dsdanielpark/Bard-API.git
 ```
 ```bash
-pip install bardapi==0.1.30
+pip install bardapi==0.1.38
 ```
 ## Run the app
 Add your API key to line 23.
