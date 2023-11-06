@@ -31,8 +31,12 @@ gradio bardGradio.py
 ```
 or in VSCode
 
-## The UI
+## How to use
 
 ![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/64b8b65b-7244-490f-86bc-082c94af05c3)
+
+Add your image to the first slot and then press find similiar products. Then Bard will find the products for you and give you a text prompt about them.
+
+Images don't work yet
 
 
