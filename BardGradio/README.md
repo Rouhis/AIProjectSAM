@@ -8,7 +8,7 @@ Base idea of this is to show how you can connect Bard to Gradio.
 You need to have photo of a piece of clothing that you can use to test the program.
 
 ## Installing
-
+Installing dependencies
 ### Gradio
 ```bash
 pip install gradio
