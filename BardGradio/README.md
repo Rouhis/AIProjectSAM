@@ -6,6 +6,8 @@ Base idea of this is to show how you can connect Bard to Gradio.
 ## Getting Started
 You need a api key for Bard.
 
+Go to https://bard.google.com/chat?hl=fi and check your cookies and copy the value in __Secure-1PSID.
+
 ![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/66e509db-01b0-4fdb-a68b-2de644dbbd94)
 
 
@@ -28,7 +30,11 @@ pip install git+https://github.com/dsdanielpark/Bard-API.git
 ```bash
 pip install bardapi==0.1.30
 ```
-## Project
+## Run the app
+Add your API key to line 23.
+
+![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/9b01bb86-0d73-4993-93d2-1856bd0e058e)
+
 You can run the app using command
 ```bash
 gradio bardGradio.py
