@@ -6,7 +6,7 @@ Base idea of this is to show how you can connect Bard to Gradio.
 ## Getting Started
 You need a api key for Bard.
 
-Go to https://bard.google.com/chat?hl=fi and check your cookies and copy the value in __Secure-1PSID.
+Go to https://bard.google.com/chat and check your cookies and copy the value in __Secure-1PSID.
 
 ![image](https://github.com/Rouhis/AIProjectSAM/assets/103174848/66e509db-01b0-4fdb-a68b-2de644dbbd94)
 
