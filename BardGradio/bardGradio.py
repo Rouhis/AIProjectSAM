@@ -20,7 +20,7 @@ def find_similar_products(image):
     # Convert the NumPy array image to bytes
     image_bytes = convert_image_to_bytes(image)
     
-    bard_client = Bard(token='cwi4mx_wBlbWv8uTDtlL4RFi9M0pd4hMOmKr6WvqshMjvmv7qPiqP9luY1anEkyXVMfo0w.')  # Replace with your actual Bard API token
+    bard_client = Bard(token='your api key')  # Replace with your actual Bard API token
     response = bard_client.ask_about_image('Find me products similiar to this?', image_bytes)
     
     # Placeholder for processing the response to extract image URLs
