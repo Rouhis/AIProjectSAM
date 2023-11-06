@@ -9,11 +9,11 @@ You need to have photo of a piece of clothing that you can use to test the progr
 
 ## Installing
 
-###Gradio
+### Gradio
 ```bash
 pip install gradio
 ```
-###Bard
+### Bard
 
 ```bash
 pip install bardapi
