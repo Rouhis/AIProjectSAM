@@ -7,17 +7,20 @@ Base idea of this is to show how you can connect Bard to Gradio.
 
 You need to have photo of a piece of clothing that you can use to test the program.
 
-### Prerequisites
+## Installing
+
+###Gradio
+```bash
+pip install gradio
+```
+###Bard
 
 ```bash
-pip install foobar
+pip install bardapi
 ```
-
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-
+```bash
+pip install git+https://github.com/dsdanielpark/Bard-API.git
+```
+```bash
+pip install bardapi==0.1.30
+```
