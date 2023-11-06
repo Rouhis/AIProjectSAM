@@ -4,7 +4,7 @@ This is an bare bone project of how you can find poducts similiar to some other 
 Base idea of this is to show how you can connect Bard to Gradio.
 
 ## Getting Started
-You need a api key for Bard.
+You'll need to get a api key for Bard.
 
 Go to https://bard.google.com/chat and check your cookies and copy the value in __Secure-1PSID.
 
