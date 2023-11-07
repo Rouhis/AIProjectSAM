@@ -20,3 +20,31 @@ Ensure that you have the following prerequisites set up and installed on your sy
 Inside the Track-Anything folder, install the required torch libraries via Anaconda:
 ```sh
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+## Building the Docker Image
+
+### 1. Dockerfile Modificarions
+```
+RUN apt-get update && apt-get install -y \
+    git \
+    libgl1-mesa-glx \
+    libglib2.0-0
+```
+Update the run command at the end of the Dockerfile
+
+```
+CMD python app.py --device cuda:0
+```
+Remove or comment out the USER appuser line.
+
+## Build and run
+```
+docker compose up --build
+```
+
+After completing these steps, your Docker container should be up and running with Track-Anything installed and ready to use.
+
+
+This Markdown formatted `README.md` provides a structured guide for setting up Track-Anything in a Docker container. It outlines the required software, steps to prepare the environment, and the commands needed to build and run the Docker image.
+
+
