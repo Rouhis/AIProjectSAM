@@ -3,7 +3,7 @@
 This guide details the steps required to install Track-Anything into a Docker container with GPU support.
 
 I have not made Track-Anything this is just a guide to get it running in docker.
-All credit to original repo [Track-anything](https://github.com/gaomingqi/Track-Anything)
+All credit to original repo [Track-anything](https://github.com/gaomingqi/Track-Anything).
 ## Prerequisites
 Ensure that you have the following prerequisites set up and installed on your system:
 
