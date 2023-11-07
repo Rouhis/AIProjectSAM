@@ -12,7 +12,7 @@ Ensure that you have the following prerequisites set up and installed on your sy
     ```
     git clone https://github.com/gaomingqi/Track-Anything
     ```
-    or you can use this as base.
+    or you can use this repository as base.
 3. **WSL2:** Install WSL2 on Windows to allow GPU passthrough to the Linux-based Docker container.
 4. **Docker Desktop:** Install Docker Desktop from [Docker's website](https://docs.docker.com/desktop/install/windows-install/).
 5. **Anaconda:** Download and install Anaconda from [Anaconda's website](https://www.anaconda.com/download).
@@ -40,7 +40,27 @@ CMD python app.py --device cuda:0
 ```
 Remove or comment out the USER appuser line.
 
+## 2.
+Ensure your compose.yaml mirrors the following structure:
+```
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: 1
+            capabilities: [gpu]
+
+```
+
 ## Build and run
+In an Anaconda prompt navigated to the Track-Anything folder, execute:
 ```
 docker compose up --build
 ```
