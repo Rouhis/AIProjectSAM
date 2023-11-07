@@ -1,7 +1,8 @@
 # Track-Anything Docker Installation Guide
 
 This guide details the steps required to install Track-Anything into a Docker container with GPU support.
-
+I have not made Track-Anything this is just a guide to get it running in docker.
+All credit to original [Track-anything](https://github.com/gaomingqi/Track-Anything)
 ## Prerequisites
 Ensure that you have the following prerequisites set up and installed on your system:
 
@@ -10,6 +11,7 @@ Ensure that you have the following prerequisites set up and installed on your sy
     ```
     git clone https://github.com/gaomingqi/Track-Anything
     ```
+    or you can use this as base.
 3. **WSL2:** Install WSL2 on Windows to allow GPU passthrough to the Linux-based Docker container.
 4. **Docker Desktop:** Install Docker Desktop from [Docker's website](https://docs.docker.com/desktop/install/windows-install/).
 5. **Anaconda:** Download and install Anaconda from [Anaconda's website](https://www.anaconda.com/download).
