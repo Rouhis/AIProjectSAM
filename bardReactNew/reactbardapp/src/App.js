@@ -40,26 +40,47 @@ const styles = {
   }
 };
 
+
 const App = () => {
   const [answer, setAnswer] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null); // New state for the image
+
+  const handleImageChange = (e) => {
+    setSelectedImage(e.target.files[0]);
+  };
 
   const handleAskBard = async () => {
     setIsLoading(true);
+
+    const formData = new FormData();
+    formData.append('image', selectedImage); // Append the image to the FormData object
+    formData.append('question', 'Find me products similiar to this from zalando?'); // Append other data you want to send
+
     try {
-      const response = await axios.post('http://localhost:3001/ask-bard', { question: 'Hello world!' });
+      const response = await axios.post('http://localhost:3001/ask-bard', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data', // Important header for files
+        },
+      });
       setAnswer(response.data.answer);
     } catch (error) {
       console.error('Error fetching response from Bard:', error);
     }
+
     setIsLoading(false);
   };
 
   return (
     <div style={styles.container}>
+      <input 
+        type="file" 
+        onChange={handleImageChange} 
+        disabled={isLoading} 
+      />
       <button 
         onClick={handleAskBard} 
-        disabled={isLoading}
+        disabled={isLoading || !selectedImage} // Disable button if loading or no image is selected
         style={isLoading ? { ...styles.button, ...styles.button[':disabled'] } : styles.button}
       >
         {isLoading ? 'Loading...' : 'Ask Bard'}
