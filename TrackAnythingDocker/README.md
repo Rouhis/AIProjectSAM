@@ -66,8 +66,3 @@ docker compose up --build
 ```
 
 After completing these steps, your Docker container should be up and running with Track-Anything installed and ready to use.
-
-
-This Markdown formatted `README.md` provides a structured guide for setting up Track-Anything in a Docker container. It outlines the required software, steps to prepare the environment, and the commands needed to build and run the Docker image.
-
-
