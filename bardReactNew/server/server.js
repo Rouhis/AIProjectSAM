@@ -7,15 +7,14 @@ app.use(cors());
 app.use(express.json());
 
 // Your Bard AI cookie
-const bardCookie = 'dAi4mwhAFGfRhuR9vg9-wScmQ1HPUCZ7KKB76U3jhiWRCoqoOBHdk5-Gm23ohZKdH2YhLQ.'; // Securely using the cookie from an environment variable
+const bardCookie = 'cwi4myp30TVxofIsOpysv7BDuKQ-kIsorpE1FHAwrH_b16FBYURPTX2JH6lRm0Ex2KOxHQ.'; // Securely using the cookie from an environment variable
 
 app.post('/ask-bard', async (req, res) => {
     const { question } = req.body;
-
     try {
         const Bard = (await import('bard-ai')).default;
         console.log(Bard)
-        const myBard = new Bard('dAi4mwhAFGfRhuR9vg9-wScmQ1HPUCZ7KKB76U3jhiWRCoqoOBHdk5-Gm23ohZKdH2YhLQ.');
+        const myBard = new Bard(bardCookie);
         
         const answer = await myBard.ask(question);
         res.json({ answer });
